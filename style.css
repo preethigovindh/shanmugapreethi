@@ -32,7 +32,8 @@ h1 {
   min-height: 100vh;
   min-width: 100%;
   background: url(images/bg.jpg) no-repeat;
-  background-size: cover;
+  background-size: contain;
+  
 }
  
 .flex-home, .flex-about {
@@ -41,7 +42,8 @@ h1 {
     align-items: center;
     min-height: calc(100vh - 100px);
     width: 1024px;
-    margin: 75px auto 0 auto;
+    margin: 0 auto;
+    padding-top: 75px;
 }
 .flex-home > div{
     width: 50%;
