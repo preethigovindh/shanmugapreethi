@@ -67,7 +67,7 @@ h1 {
 
 .arrow-img {
     width: 20px;
-    transform: rotate(224deg);
+    /* transform: rotate(224deg); */
     margin: 0 0 0;
     position: relative;
     top: 4px;
